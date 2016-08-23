@@ -1,41 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>CSS Responsive Grid Challenge</title>
+  <title>lesson5-7</title>
+  <meta charset="utf-8" name="description" content="Lesson5-7 grid layout" >
 
-  <!-- Responsive viewport tag, tells small screens that it's responsive -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="main.css">
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="css/float-grid.css" />
-  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="float-grid.css">
+  
 </head>
 <body>
   <main>
-
-    <div class="row">
-      <div class="col-3">
-        <div class="box orange">3 columns</div>
+    <div class="allbox">
+      <div class="column-1">
+        <div class="box yellow">3 column</div>
       </div>
-      <div class="col-3">
-        <div class="box blue">3 columns</div>
+      <div class="column-1">
+        <div class="box blue">3 column</div>
       </div>
-      <div class="col-3">
-        <div class="box green">3 columns</div>
+      <div class="column-1">
+        <div class="box green">3 column</div>
       </div>
-      <div class="col-3">
-        <div class="box black">3 columns</div>
+      <div class="column-1">
+        <div class="box black">3 column</div>
       </div>
     </div>
 
+    <div class="allbox">
+      <div class="column-2"> 
+        <div class="box yellow">4 column</div>
+      </div>
+      <div class="column-2"> 
+        <div class="box blue">4 column</div>
+      </div>
+      <div class="column-2"> 
+        <div class="box green">4 column</div>
+      </div>
+    </div>
 
-    <div class="row"><h2>This row should get 3 equal width columns, each a different color</h2></div>
+    <div class="allbox">
+      <div class="column-3">
+        <div class="box yellow">6 column</div>
+      </div>
+      <div class="column-3">
+        <div class="box blue">6 column</div>
+      </div>
+    </div>
 
-    <div class="row"><h2>This row should get 2 equal width columns, each a different color</h2></div>
-
-    <div class="row"><h2>This row should get a single 12-col column</h2></div>
+    <div class="allbox">
+      <div class="column-4"> 
+        <div class="box yellow">12 column</div>
+      </div>
+    </div>
 
   </main>
+
+
 </body>
 </html>
