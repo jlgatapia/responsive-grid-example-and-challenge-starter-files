@@ -1,0 +1,27 @@
+main .allbox {
+	padding: 20px;
+}
+
+.box {
+	text-align: center;
+	height: 200px;
+	padding: 20px;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+
+.blue {
+	background-color:  blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.black {
+	color: white;
+	background-color: black;
+}
